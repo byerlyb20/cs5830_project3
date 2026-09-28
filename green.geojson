@@ -1,0 +1,3132 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-01-18T05:20:55Z",
+  "features": [
+        {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1343862115",
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "25 mph",
+        "name": "1000 North",
+        "name:full": "East 1000 North",
+        "name:prefix": "East",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 16268552,
+            "reltags": {
+              "colour": "red",
+              "from": "Taggart Student Center",
+              "name": "South Campus Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Red",
+              "route": "bus",
+              "to": "South Campus",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -111.8017395,
+            41.7493405
+          ],
+          [
+            -111.802487,
+            41.7493319
+          ]
+        ]
+      },
+      "id": "way/1343862115"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/13394442",
+        "colour": "green",
+        "from": "Taggart Student Center",
+        "name": "USU Housing Express",
+        "network": "Aggie Shuttle",
+        "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+        "operator": "Utah State University",
+        "public_transport:version": "2",
+        "ref": "Green",
+        "roundtrip": "yes",
+        "route": "bus",
+        "to": "USU Housing",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -111.8017395,
+              41.7493405
+            ],
+            [
+              -111.8018114,
+              41.7494397
+            ],
+            [
+              -111.801838,
+              41.7494733
+            ],
+            [
+              -111.8019309,
+              41.7495595
+            ],
+            [
+              -111.8020478,
+              41.7496019
+            ],
+            [
+              -111.802173,
+              41.749603
+            ],
+            [
+              -111.8023023,
+              41.7495493
+            ],
+            [
+              -111.8023839,
+              41.7494746
+            ],
+            [
+              -111.8024169,
+              41.7494388
+            ],
+            [
+              -111.802487,
+              41.7493319
+            ],
+            [
+              -111.8024169,
+              41.7494388
+            ],
+            [
+              -111.8023839,
+              41.7494746
+            ],
+            [
+              -111.8023023,
+              41.7495493
+            ],
+            [
+              -111.802173,
+              41.749603
+            ],
+            [
+              -111.8020478,
+              41.7496019
+            ],
+            [
+              -111.8019309,
+              41.7495595
+            ],
+            [
+              -111.801838,
+              41.7494733
+            ],
+            [
+              -111.8018114,
+              41.7494397
+            ],
+            [
+              -111.8017395,
+              41.7493405
+            ]
+          ],
+          [
+            [
+              -111.802487,
+              41.7493319
+            ],
+            [
+              -111.802821,
+              41.7493307
+            ],
+            [
+              -111.8030712,
+              41.7493264
+            ],
+            [
+              -111.8039184,
+              41.7493332
+            ],
+            [
+              -111.8030712,
+              41.7493264
+            ],
+            [
+              -111.802821,
+              41.7493307
+            ],
+            [
+              -111.802487,
+              41.7493319
+            ]
+          ],
+          [
+            [
+              -111.8042881,
+              41.7493015
+            ],
+            [
+              -111.8041005,
+              41.7493008
+            ],
+            [
+              -111.8039184,
+              41.7493332
+            ],
+            [
+              -111.8040754,
+              41.7493805
+            ],
+            [
+              -111.8042364,
+              41.7494605
+            ],
+            [
+              -111.8042816,
+              41.7495093
+            ],
+            [
+              -111.8043171,
+              41.7495475
+            ],
+            [
+              -111.8043427,
+              41.7495913
+            ],
+            [
+              -111.8043616,
+              41.7496266
+            ],
+            [
+              -111.8043782,
+              41.7496715
+            ],
+            [
+              -111.8043885,
+              41.7497201
+            ],
+            [
+              -111.8043935,
+              41.7497608
+            ],
+            [
+              -111.8043905,
+              41.7498015
+            ],
+            [
+              -111.8043835,
+              41.7498476
+            ],
+            [
+              -111.8043736,
+              41.7498886
+            ],
+            [
+              -111.8043523,
+              41.7499424
+            ],
+            [
+              -111.8043432,
+              41.7499814
+            ],
+            [
+              -111.8043478,
+              41.7500355
+            ],
+            [
+              -111.8043567,
+              41.7502211
+            ],
+            [
+              -111.8043591,
+              41.7503649
+            ],
+            [
+              -111.8044095,
+              41.7505198
+            ],
+            [
+              -111.804428,
+              41.7511009
+            ],
+            [
+              -111.8044298,
+              41.7514595
+            ],
+            [
+              -111.80443,
+              41.7515089
+            ],
+            [
+              -111.8044372,
+              41.7530508
+            ],
+            [
+              -111.8045538,
+              41.7530407
+            ],
+            [
+              -111.8049938,
+              41.753035
+            ],
+            [
+              -111.8054748,
+              41.753035
+            ],
+            [
+              -111.805604,
+              41.753035
+            ],
+            [
+              -111.8063133,
+              41.7530332
+            ],
+            [
+              -111.8064275,
+              41.7530329
+            ],
+            [
+              -111.8065693,
+              41.7530325
+            ],
+            [
+              -111.8069437,
+              41.7529719
+            ],
+            [
+              -111.8072072,
+              41.7528945
+            ],
+            [
+              -111.808029,
+              41.7526726
+            ],
+            [
+              -111.8085587,
+              41.7525288
+            ],
+            [
+              -111.808674,
+              41.7524668
+            ],
+            [
+              -111.8088535,
+              41.752365
+            ],
+            [
+              -111.809039,
+              41.7521793
+            ],
+            [
+              -111.8091891,
+              41.7519373
+            ],
+            [
+              -111.8091995,
+              41.7519001
+            ],
+            [
+              -111.8092037,
+              41.7517207
+            ],
+            [
+              -111.8092083,
+              41.7515281
+            ],
+            [
+              -111.8092132,
+              41.7513199
+            ],
+            [
+              -111.8092174,
+              41.7511451
+            ],
+            [
+              -111.8092217,
+              41.7509637
+            ],
+            [
+              -111.8092262,
+              41.7507414
+            ],
+            [
+              -111.8092308,
+              41.7505764
+            ],
+            [
+              -111.809235,
+              41.7503994
+            ],
+            [
+              -111.8092401,
+              41.7501858
+            ],
+            [
+              -111.8092427,
+              41.7500747
+            ],
+            [
+              -111.8093962,
+              41.750078
+            ],
+            [
+              -111.8111864,
+              41.7501062
+            ],
+            [
+              -111.8113073,
+              41.7501081
+            ],
+            [
+              -111.8116114,
+              41.7501129
+            ],
+            [
+              -111.8118014,
+              41.7501159
+            ],
+            [
+              -111.8123491,
+              41.7501245
+            ],
+            [
+              -111.8124801,
+              41.7501265
+            ],
+            [
+              -111.8129971,
+              41.7501347
+            ],
+            [
+              -111.813724,
+              41.7501461
+            ],
+            [
+              -111.813924,
+              41.7501493
+            ],
+            [
+              -111.8139302,
+              41.7500252
+            ],
+            [
+              -111.813952,
+              41.7494571
+            ],
+            [
+              -111.8139696,
+              41.7489987
+            ],
+            [
+              -111.813998,
+              41.7482826
+            ],
+            [
+              -111.8140368,
+              41.7473049
+            ],
+            [
+              -111.8140728,
+              41.7463957
+            ],
+            [
+              -111.8140997,
+              41.7457187
+            ],
+            [
+              -111.8141216,
+              41.7451662
+            ],
+            [
+              -111.8141434,
+              41.744617
+            ],
+            [
+              -111.8141474,
+              41.7445254
+            ],
+            [
+              -111.8139982,
+              41.7445203
+            ],
+            [
+              -111.8136768,
+              41.744512
+            ],
+            [
+              -111.8135879,
+              41.7444855
+            ],
+            [
+              -111.8135073,
+              41.7444824
+            ],
+            [
+              -111.812733,
+              41.7444648
+            ],
+            [
+              -111.812489,
+              41.7444602
+            ],
+            [
+              -111.8119812,
+              41.7444579
+            ],
+            [
+              -111.8119307,
+              41.7444646
+            ],
+            [
+              -111.8118903,
+              41.7444717
+            ],
+            [
+              -111.8118488,
+              41.7444922
+            ],
+            [
+              -111.8114475,
+              41.7444811
+            ],
+            [
+              -111.8103854,
+              41.7444565
+            ],
+            [
+              -111.8099169,
+              41.7444445
+            ],
+            [
+              -111.8088273,
+              41.7444257
+            ],
+            [
+              -111.80859,
+              41.7444306
+            ],
+            [
+              -111.80761,
+              41.7444121
+            ],
+            [
+              -111.8073628,
+              41.7444075
+            ],
+            [
+              -111.8065365,
+              41.7443716
+            ],
+            [
+              -111.8064481,
+              41.7443715
+            ],
+            [
+              -111.805857,
+              41.74436
+            ],
+            [
+              -111.8051606,
+              41.7443465
+            ],
+            [
+              -111.8050262,
+              41.7443439
+            ],
+            [
+              -111.8044575,
+              41.7443329
+            ],
+            [
+              -111.8042997,
+              41.7443298
+            ],
+            [
+              -111.8043033,
+              41.7444464
+            ],
+            [
+              -111.8043143,
+              41.7448057
+            ],
+            [
+              -111.8043162,
+              41.7448665
+            ],
+            [
+              -111.804318,
+              41.7449272
+            ],
+            [
+              -111.8043342,
+              41.7454559
+            ],
+            [
+              -111.8043461,
+              41.7458439
+            ],
+            [
+              -111.8043541,
+              41.7460831
+            ],
+            [
+              -111.8043193,
+              41.7463421
+            ],
+            [
+              -111.8042872,
+              41.7464714
+            ],
+            [
+              -111.8042508,
+              41.7464974
+            ],
+            [
+              -111.8042265,
+              41.7465302
+            ],
+            [
+              -111.8042163,
+              41.746567
+            ],
+            [
+              -111.8042213,
+              41.7466043
+            ],
+            [
+              -111.804241,
+              41.7466388
+            ],
+            [
+              -111.8042736,
+              41.7466674
+            ],
+            [
+              -111.8042947,
+              41.7468256
+            ],
+            [
+              -111.8042978,
+              41.7470048
+            ],
+            [
+              -111.8042975,
+              41.747091
+            ],
+            [
+              -111.8043484,
+              41.7473391
+            ],
+            [
+              -111.8043554,
+              41.7475734
+            ],
+            [
+              -111.8043796,
+              41.7483825
+            ],
+            [
+              -111.8043893,
+              41.7489096
+            ],
+            [
+              -111.8043558,
+              41.7491804
+            ],
+            [
+              -111.8043324,
+              41.7492503
+            ],
+            [
+              -111.8042881,
+              41.7493015
+            ]
+          ]
+        ]
+      },
+      "id": "relation/13394442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/10083950",
+        "highway": "residential",
+        "lane_markings": "no",
+        "lanes": "2",
+        "name": "Stadium Drive",
+        "name:full": "East Stadium Drive",
+        "name:prefix": "East",
+        "oneway": "no",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -111.8092427,
+            41.7500747
+          ],
+          [
+            -111.8092401,
+            41.7501858
+          ],
+          [
+            -111.809235,
+            41.7503994
+          ],
+          [
+            -111.8092308,
+            41.7505764
+          ],
+          [
+            -111.8092262,
+            41.7507414
+          ],
+          [
+            -111.8092217,
+            41.7509637
+          ],
+          [
+            -111.8092174,
+            41.7511451
+          ],
+          [
+            -111.8092132,
+            41.7513199
+          ],
+          [
+            -111.8092083,
+            41.7515281
+          ],
+          [
+            -111.8092037,
+            41.7517207
+          ],
+          [
+            -111.8091995,
+            41.7519001
+          ],
+          [
+            -111.8091891,
+            41.7519373
+          ],
+          [
+            -111.809039,
+            41.7521793
+          ],
+          [
+            -111.8088535,
+            41.752365
+          ],
+          [
+            -111.808674,
+            41.7524668
+          ],
+          [
+            -111.8085587,
+            41.7525288
+          ],
+          [
+            -111.808029,
+            41.7526726
+          ],
+          [
+            -111.8072072,
+            41.7528945
+          ],
+          [
+            -111.8069437,
+            41.7529719
+          ],
+          [
+            -111.8065693,
+            41.7530325
+          ],
+          [
+            -111.8064275,
+            41.7530329
+          ],
+          [
+            -111.8063133,
+            41.7530332
+          ],
+          [
+            -111.805604,
+            41.753035
+          ],
+          [
+            -111.8054748,
+            41.753035
+          ],
+          [
+            -111.8049938,
+            41.753035
+          ],
+          [
+            -111.8045538,
+            41.7530407
+          ],
+          [
+            -111.8044372,
+            41.7530508
+          ]
+        ]
+      },
+      "id": "way/10083950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/10086405",
+        "alt_name": "700 North",
+        "alt_name:full": "East 700 North",
+        "alt_name:prefix": "East",
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "maxspeed": "25 mph",
+        "name": "Aggie Boulevard",
+        "oneway": "no",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -111.8042997,
+            41.7443298
+          ],
+          [
+            -111.8044575,
+            41.7443329
+          ],
+          [
+            -111.8050262,
+            41.7443439
+          ],
+          [
+            -111.8051606,
+            41.7443465
+          ],
+          [
+            -111.805857,
+            41.74436
+          ],
+          [
+            -111.8064481,
+            41.7443715
+          ],
+          [
+            -111.8065365,
+            41.7443716
+          ],
+          [
+            -111.8073628,
+            41.7444075
+          ],
+          [
+            -111.80761,
+            41.7444121
+          ],
+          [
+            -111.80859,
+            41.7444306
+          ],
+          [
+            -111.8088273,
+            41.7444257
+          ],
+          [
+            -111.8099169,
+            41.7444445
+          ],
+          [
+            -111.8103854,
+            41.7444565
+          ],
+          [
+            -111.8114475,
+            41.7444811
+          ],
+          [
+            -111.8118488,
+            41.7444922
+          ]
+        ]
+      },
+      "id": "way/10086405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/105757117",
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "25 mph",
+        "name": "1000 North",
+        "name:full": "East 1000 North",
+        "name:prefix": "East",
+        "old_ref": "SR 288",
+        "oneway": "no",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -111.813924,
+            41.7501493
+          ],
+          [
+            -111.813724,
+            41.7501461
+          ],
+          [
+            -111.8129971,
+            41.7501347
+          ]
+        ]
+      },
+      "id": "way/105757117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/105757122",
+        "alt_name": "800 East",
+        "alt_name:full": "North 800 East",
+        "alt_name:prefix": "North",
+        "cycleway": "lane",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "no",
+        "maxspeed": "35 mph",
+        "name": "Lars Hansen Drive",
+        "old_ref": "SR 237",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -111.8141474,
+            41.7445254
+          ],
+          [
+            -111.8141434,
+            41.744617
+          ],
+          [
+            -111.8141216,
+            41.7451662
+          ],
+          [
+            -111.8140997,
+            41.7457187
+          ],
+          [
+            -111.8140728,
+            41.7463957
+          ],
+          [
+            -111.8140368,
+            41.7473049
+          ],
+          [
+            -111.813998,
+            41.7482826
+          ],
+          [
+            -111.8139696,
+            41.7489987
+          ],
+          [
+            -111.813952,
+            41.7494571
+          ]
+        ]
+      },
+      "id": "way/105757122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/105757140",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "35 mph",
+        "name": "1200 East",
+        "name:full": "North 1200 East",
+        "name:prefix": "North",
+        "old_ref": "SR 288",
+        "oneway": "no",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -111.8044095,
+            41.7505198
+          ],
+          [
+            -111.804428,
+            41.7511009
+          ]
+        ]
+      },
+      "id": "way/105757140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/182952354",
+        "highway": "secondary",
+        "maxspeed": "35 mph",
+        "name": "1200 East",
+        "name:full": "North 1200 East",
+        "name:prefix": "North",
+        "old_ref": "SR 288",
+        "oneway": "no",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -111.8043162,
+            41.7448665
+          ],
+          [
+            -111.804318,
+            41.7449272
+          ],
+          [
+            -111.8043342,
+            41.7454559
+          ],
+          [
+            -111.8043461,
+            41.7458439
+          ],
+          [
+            -111.8043541,
+            41.7460831
+          ]
+        ]
+      },
+      "id": "way/182952354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/258726226",
+        "highway": "service",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -111.8017395,
+            41.7493405
+          ],
+          [
+            -111.8018114,
+            41.7494397
+          ],
+          [
+            -111.801838,
+            41.7494733
+          ],
+          [
+            -111.8019309,
+            41.7495595
+          ],
+          [
+            -111.8020478,
+            41.7496019
+          ],
+          [
+            -111.802173,
+            41.749603
+          ],
+          [
+            -111.8023023,
+            41.7495493
+          ],
+          [
+            -111.8023839,
+            41.7494746
+          ],
+          [
+            -111.8024169,
+            41.7494388
+          ],
+          [
+            -111.802487,
+            41.7493319
+          ]
+        ]
+      },
+      "id": "way/258726226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1109090466",
+        "alt_name": "700 North",
+        "alt_name:full": "East 700 North",
+        "alt_name:prefix": "East",
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "maxspeed": "25 mph",
+        "name": "Aggie Boulevard",
+        "oneway": "no",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -111.8136768,
+            41.744512
+          ],
+          [
+            -111.8139982,
+            41.7445203
+          ],
+          [
+            -111.8141474,
+            41.7445254
+          ]
+        ]
+      },
+      "id": "way/1109090466"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1109090468",
+        "alt_name": "700 North",
+        "alt_name:full": "East 700 North",
+        "alt_name:prefix": "East",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "highway": "tertiary",
+        "lanes": "1",
+        "maxspeed": "25 mph",
+        "name": "Aggie Boulevard",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -111.8136768,
+            41.744512
+          ],
+          [
+            -111.8135879,
+            41.7444855
+          ],
+          [
+            -111.8135073,
+            41.7444824
+          ],
+          [
+            -111.812733,
+            41.7444648
+          ],
+          [
+            -111.812489,
+            41.7444602
+          ],
+          [
+            -111.8119812,
+            41.7444579
+          ],
+          [
+            -111.8119307,
+            41.7444646
+          ],
+          [
+            -111.8118903,
+            41.7444717
+          ],
+          [
+            -111.8118488,
+            41.7444922
+          ]
+        ]
+      },
+      "id": "way/1109090468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1204279011",
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "25 mph",
+        "name": "1000 North",
+        "name:full": "East 1000 North",
+        "name:prefix": "East",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -111.802487,
+            41.7493319
+          ],
+          [
+            -111.802821,
+            41.7493307
+          ],
+          [
+            -111.8030712,
+            41.7493264
+          ],
+          [
+            -111.8039184,
+            41.7493332
+          ]
+        ]
+      },
+      "id": "way/1204279011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1204279014",
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "25 mph",
+        "name": "1000 North",
+        "name:full": "East 1000 North",
+        "name:prefix": "East",
+        "old_ref": "SR 288",
+        "oneway": "no",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -111.8129971,
+            41.7501347
+          ],
+          [
+            -111.8124801,
+            41.7501265
+          ],
+          [
+            -111.8123491,
+            41.7501245
+          ],
+          [
+            -111.8118014,
+            41.7501159
+          ],
+          [
+            -111.8116114,
+            41.7501129
+          ],
+          [
+            -111.8113073,
+            41.7501081
+          ],
+          [
+            -111.8111864,
+            41.7501062
+          ],
+          [
+            -111.8093962,
+            41.750078
+          ],
+          [
+            -111.8092427,
+            41.7500747
+          ]
+        ]
+      },
+      "id": "way/1204279014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1204279024",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "35 mph",
+        "name": "1200 East",
+        "name:full": "North 1200 East",
+        "name:prefix": "North",
+        "oneway": "no",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -111.804428,
+            41.7511009
+          ],
+          [
+            -111.8044298,
+            41.7514595
+          ],
+          [
+            -111.80443,
+            41.7515089
+          ],
+          [
+            -111.8044372,
+            41.7530508
+          ]
+        ]
+      },
+      "id": "way/1204279024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1204279029",
+        "highway": "secondary",
+        "maxspeed": "35 mph",
+        "name": "1200 East",
+        "name:full": "North 1200 East",
+        "name:prefix": "North",
+        "old_ref": "SR 288",
+        "oneway": "no",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -111.8043554,
+            41.7475734
+          ],
+          [
+            -111.8043796,
+            41.7483825
+          ],
+          [
+            -111.8043893,
+            41.7489096
+          ]
+        ]
+      },
+      "id": "way/1204279029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1204279032",
+        "highway": "secondary",
+        "junction": "roundabout",
+        "lanes": "1",
+        "name": "1200 East",
+        "name:full": "North 1200 East",
+        "name:prefix": "North",
+        "old_ref": "SR 288",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -111.8042364,
+            41.7494605
+          ],
+          [
+            -111.8042816,
+            41.7495093
+          ],
+          [
+            -111.8043171,
+            41.7495475
+          ],
+          [
+            -111.8043427,
+            41.7495913
+          ],
+          [
+            -111.8043616,
+            41.7496266
+          ],
+          [
+            -111.8043782,
+            41.7496715
+          ],
+          [
+            -111.8043885,
+            41.7497201
+          ],
+          [
+            -111.8043935,
+            41.7497608
+          ],
+          [
+            -111.8043905,
+            41.7498015
+          ],
+          [
+            -111.8043835,
+            41.7498476
+          ],
+          [
+            -111.8043736,
+            41.7498886
+          ],
+          [
+            -111.8043523,
+            41.7499424
+          ],
+          [
+            -111.8043432,
+            41.7499814
+          ],
+          [
+            -111.8043478,
+            41.7500355
+          ]
+        ]
+      },
+      "id": "way/1204279032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1305799465",
+        "highway": "tertiary",
+        "lanes": "1",
+        "maxspeed": "25 mph",
+        "name": "1000 North",
+        "name:full": "East 1000 North",
+        "name:prefix": "East",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -111.8039184,
+            41.7493332
+          ],
+          [
+            -111.8040754,
+            41.7493805
+          ],
+          [
+            -111.8042364,
+            41.7494605
+          ]
+        ]
+      },
+      "id": "way/1305799465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1310476481",
+        "highway": "secondary",
+        "lanes": "1",
+        "maxspeed": "35 mph",
+        "name": "1200 East",
+        "name:full": "North 1200 East",
+        "name:prefix": "North",
+        "old_ref": "SR 288",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -111.8043478,
+            41.7500355
+          ],
+          [
+            -111.8043567,
+            41.7502211
+          ],
+          [
+            -111.8043591,
+            41.7503649
+          ],
+          [
+            -111.8044095,
+            41.7505198
+          ]
+        ]
+      },
+      "id": "way/1310476481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1310476484",
+        "highway": "tertiary",
+        "lanes": "1",
+        "maxspeed": "25 mph",
+        "name": "1000 North",
+        "name:full": "East 1000 North",
+        "name:prefix": "East",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -111.8042881,
+            41.7493015
+          ],
+          [
+            -111.8041005,
+            41.7493008
+          ],
+          [
+            -111.8039184,
+            41.7493332
+          ]
+        ]
+      },
+      "id": "way/1310476484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1310476486",
+        "highway": "secondary",
+        "junction": "roundabout",
+        "lanes": "1",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -111.8042872,
+            41.7464714
+          ],
+          [
+            -111.8042508,
+            41.7464974
+          ],
+          [
+            -111.8042265,
+            41.7465302
+          ],
+          [
+            -111.8042163,
+            41.746567
+          ],
+          [
+            -111.8042213,
+            41.7466043
+          ],
+          [
+            -111.804241,
+            41.7466388
+          ],
+          [
+            -111.8042736,
+            41.7466674
+          ]
+        ]
+      },
+      "id": "way/1310476486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1311629919",
+        "highway": "secondary",
+        "lanes": "1",
+        "maxspeed": "35 mph",
+        "name": "1200 East",
+        "name:full": "North 1200 East",
+        "name:prefix": "North",
+        "old_ref": "SR 288",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -111.8043893,
+            41.7489096
+          ],
+          [
+            -111.8043558,
+            41.7491804
+          ],
+          [
+            -111.8043324,
+            41.7492503
+          ],
+          [
+            -111.8042881,
+            41.7493015
+          ]
+        ]
+      },
+      "id": "way/1311629919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1311629920",
+        "highway": "secondary",
+        "lanes": "1",
+        "maxspeed": "35 mph",
+        "name": "1200 East",
+        "name:full": "North 1200 East",
+        "name:prefix": "North",
+        "old_ref": "SR 288",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -111.8042736,
+            41.7466674
+          ],
+          [
+            -111.8042947,
+            41.7468256
+          ],
+          [
+            -111.8042978,
+            41.7470048
+          ],
+          [
+            -111.8042975,
+            41.747091
+          ],
+          [
+            -111.8043484,
+            41.7473391
+          ]
+        ]
+      },
+      "id": "way/1311629920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1311629921",
+        "highway": "secondary",
+        "lanes": "1",
+        "maxspeed": "35 mph",
+        "name": "1200 East",
+        "name:full": "North 1200 East",
+        "name:prefix": "North",
+        "old_ref": "SR 288",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -111.8043541,
+            41.7460831
+          ],
+          [
+            -111.8043193,
+            41.7463421
+          ],
+          [
+            -111.8042872,
+            41.7464714
+          ]
+        ]
+      },
+      "id": "way/1311629921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1338131549",
+        "alt_name": "800 East",
+        "alt_name:full": "North 800 East",
+        "alt_name:prefix": "North",
+        "cycleway": "lane",
+        "highway": "secondary",
+        "lanes": "6",
+        "lanes:backward": "2",
+        "lanes:forward": "4",
+        "lit": "no",
+        "maxspeed": "35 mph",
+        "name": "Lars Hansen Drive",
+        "old_ref": "SR 237",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "turn:lanes:backward": "none|merge_to_left",
+        "turn:lanes:forward": "left|none|none|right",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -111.813952,
+            41.7494571
+          ],
+          [
+            -111.8139302,
+            41.7500252
+          ],
+          [
+            -111.813924,
+            41.7501493
+          ]
+        ]
+      },
+      "id": "way/1338131549"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1343222529",
+        "highway": "secondary",
+        "lanes": "4",
+        "maxspeed": "35 mph",
+        "name": "1200 East",
+        "name:full": "North 1200 East",
+        "name:prefix": "North",
+        "old_ref": "SR 288",
+        "oneway": "no",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -111.8042997,
+            41.7443298
+          ],
+          [
+            -111.8043033,
+            41.7444464
+          ],
+          [
+            -111.8043143,
+            41.7448057
+          ],
+          [
+            -111.8043162,
+            41.7448665
+          ]
+        ]
+      },
+      "id": "way/1343222529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1343862005",
+        "highway": "secondary",
+        "maxspeed": "35 mph",
+        "name": "1200 East",
+        "name:full": "North 1200 East",
+        "name:prefix": "North",
+        "old_ref": "SR 288",
+        "oneway": "no",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -111.8043484,
+            41.7473391
+          ],
+          [
+            -111.8043554,
+            41.7475734
+          ]
+        ]
+      },
+      "id": "way/1343862005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/82882377",
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights",
+        "traffic_signals:direction": "both"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.813924,
+          41.7501493
+        ]
+      },
+      "id": "node/82882377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/82912377",
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights",
+        "traffic_signals:direction": "both"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8042997,
+          41.7443298
+        ]
+      },
+      "id": "node/82912377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/82916798",
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "both"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8141474,
+          41.7445254
+        ]
+      },
+      "id": "node/82916798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/321827432",
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8114475,
+          41.7444811
+        ]
+      },
+      "id": "node/321827432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2640587117",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Lundstrom",
+        "network": "Aggie Shuttle",
+        "operator": "Utah State University",
+        "public_transport": "platform",
+        "ref": "9",
+        "shelter": "yes",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.802078,
+          41.7496434
+        ]
+      },
+      "id": "node/2640587117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3755336647",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Vet Sci",
+        "network": "Aggie Shuttle",
+        "operator": "Utah State University",
+        "public_transport": "platform",
+        "ref": "6",
+        "shelter": "yes",
+        "tactile_paving": "no",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.811075,
+          41.7443545
+        ]
+      },
+      "id": "node/3755336647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9188424039",
+        "crossing": "marked",
+        "crossing:island": "no",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8111864,
+          41.7501062
+        ]
+      },
+      "id": "node/9188424039"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9215332902",
+        "crossing": "marked",
+        "crossing:island": "no",
+        "crossing:markings": "yes",
+        "highway": "crossing",
+        "kerb": "flush",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8088273,
+          41.7444257
+        ]
+      },
+      "id": "node/9215332902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9215332918",
+        "crossing": "marked",
+        "crossing:island": "no",
+        "crossing:markings": "yes",
+        "highway": "crossing",
+        "traffic_calming": "table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8065365,
+          41.7443716
+        ]
+      },
+      "id": "node/9215332918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9215332925",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Field House",
+        "network": "Aggie Shuttle",
+        "operator": "Utah State University",
+        "public_transport": "platform",
+        "ref": "5",
+        "shelter": "no",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8132298,
+          41.7443924
+        ]
+      },
+      "id": "node/9215332925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9215332931",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "yes",
+        "traffic_signals:sound": "no",
+        "traffic_signals:vibration": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8139982,
+          41.7445203
+        ]
+      },
+      "id": "node/9215332931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9215332932",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "yes",
+        "traffic_signals:sound": "no",
+        "traffic_signals:vibration": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8141434,
+          41.744617
+        ]
+      },
+      "id": "node/9215332932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9215332954",
+        "button_operated": "no",
+        "crossing": "marked",
+        "crossing:island": "no",
+        "crossing:markings": "lines",
+        "highway": "crossing",
+        "tactile_paving": "yes",
+        "traffic_signals:sound": "yes",
+        "traffic_signals:vibration": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8044575,
+          41.7443329
+        ]
+      },
+      "id": "node/9215332954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9215332956",
+        "button_operated": "yes",
+        "crossing": "marked",
+        "crossing:island": "no",
+        "crossing:markings": "lines",
+        "highway": "crossing",
+        "tactile_paving": "yes",
+        "traffic_signals:sound": "no",
+        "traffic_signals:vibration": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8043033,
+          41.7444464
+        ]
+      },
+      "id": "node/9215332956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9216618237",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ind Sci",
+        "network": "Aggie Shuttle",
+        "operator": "Utah State University",
+        "public_transport": "platform",
+        "ref": "7",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8079713,
+          41.7443198
+        ]
+      },
+      "id": "node/9216618237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9216618238",
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Aggie Ice Cream",
+        "network": "Aggie Shuttle",
+        "operator": "Utah State University",
+        "public_transport": "platform",
+        "ref": "8",
+        "shelter": "no",
+        "tactile_paving": "no",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.804221,
+          41.7451473
+        ]
+      },
+      "id": "node/9216618238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9216618239",
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Aggie Vlg 1",
+        "network": "Aggie Shuttle",
+        "operator": "Utah State University",
+        "public_transport": "platform",
+        "ref": "10",
+        "shelter": "no",
+        "tactile_paving": "no",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.804333,
+          41.750939
+        ]
+      },
+      "id": "node/9216618239"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9216618240",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Aggie Vlg 2",
+        "network": "Aggie Shuttle",
+        "operator": "Utah State University",
+        "public_transport": "platform",
+        "ref": "11",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.806431,
+          41.7531257
+        ]
+      },
+      "id": "node/9216618240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9216618241",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Aggie Vlg 3",
+        "network": "Aggie Shuttle",
+        "operator": "Utah State University",
+        "public_transport": "platform",
+        "ref": "12",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.809003,
+          41.7514718
+        ]
+      },
+      "id": "node/9216618241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9216618242",
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "800 E 900 N",
+        "network": "Aggie Shuttle",
+        "operator": "Utah State University",
+        "public_transport": "platform",
+        "ref": "13",
+        "shelter": "no",
+        "tactile_paving": "no",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 13394442,
+            "reltags": {
+              "colour": "green",
+              "from": "Taggart Student Center",
+              "name": "USU Housing Express",
+              "network": "Aggie Shuttle",
+              "opening_hours": "Mo-Fr 07:00-17:30; Sa-Su off",
+              "operator": "Utah State University",
+              "public_transport:version": "2",
+              "ref": "Green",
+              "roundtrip": "yes",
+              "route": "bus",
+              "to": "USU Housing",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.814112,
+          41.748437
+        ]
+      },
+      "id": "node/9216618242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9217037354",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.813724,
+          41.7501461
+        ]
+      },
+      "id": "node/9217037354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9217037355",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8139302,
+          41.7500252
+        ]
+      },
+      "id": "node/9217037355"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9217037475",
+        "crossing": "marked",
+        "crossing:island": "yes",
+        "crossing:markings": "lines",
+        "crossing:signals": "no",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8041005,
+          41.7493008
+        ]
+      },
+      "id": "node/9217037475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9222417905",
+        "crossing": "unmarked",
+        "crossing:markings": "no",
+        "crossing:signals": "no",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8092401,
+          41.7501858
+        ]
+      },
+      "id": "node/9222417905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9426806908",
+        "crossing:markings": "yes",
+        "crossing:signals": "no",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8093962,
+          41.750078
+        ]
+      },
+      "id": "node/9426806908"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11223389130",
+        "crossing": "uncontrolled",
+        "crossing:island": "no",
+        "crossing:markings": "yes",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8099169,
+          41.7444445
+        ]
+      },
+      "id": "node/11223389130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12131328046",
+        "crossing": "uncontrolled",
+        "crossing:island": "yes",
+        "crossing:markings": "lines",
+        "crossing:signals": "no",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8043558,
+          41.7491804
+        ]
+      },
+      "id": "node/12131328046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12131341802",
+        "crossing": "marked",
+        "crossing:island": "yes",
+        "crossing:markings": "lines",
+        "crossing:signals": "no",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8043193,
+          41.7463421
+        ]
+      },
+      "id": "node/12131341802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12131341923",
+        "crossing": "marked",
+        "crossing:island": "yes",
+        "crossing:markings": "lines",
+        "crossing:signals": "no",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8040754,
+          41.7493805
+        ]
+      },
+      "id": "node/12131341923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12131341925",
+        "crossing": "uncontrolled",
+        "crossing:island": "yes",
+        "crossing:markings": "zebra",
+        "crossing:signals": "no",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8043567,
+          41.7502211
+        ]
+      },
+      "id": "node/12131341925"
+    }
+  ]
+}
