@@ -17,7 +17,7 @@ class Route:
             distances.append(distances[i] + self.segments[i].length)
         return distances
     
-    def distance_marker_for(self, point: Point):
+    def distance_markers_for(self, point: Point):
         projected_point = shapely.ops.transform(Route.__transformer, point)
 
         # Find the segment the point lies on (will be indecisive when the route
@@ -25,7 +25,7 @@ class Route:
 
         distance_to_segments = sorted(
             map(
-                lambda a: (a[0], a[1].hausdorff_distance(projected_point)),
+                lambda a: (a[0], a[1].distance(projected_point)),
                 enumerate(self.segments)
             ),
             key=lambda a: a[1]
@@ -38,7 +38,10 @@ class Route:
 
         # Find the distance along the route
         
+        distance_markers = []
         for id, _ in nearest_segments:
             segment = self.segments[id]
             distance_along_segment = segment.project(projected_point)
-            yield self.base_distances[id] + distance_along_segment
+            distance_markers.append((id, self.base_distances[id] + distance_along_segment))
+
+        return sorted(distance_markers, key=lambda a: a[1])

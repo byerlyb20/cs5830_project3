@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from shapely import LineString
 import shapely.ops
 from glob import glob
+from enum import Enum
 
 __dataframes = []
 
@@ -51,54 +52,98 @@ SYSTEM_STOPS = [
     ('Aggie Rec Center', (-111.8131125, 41.74455757), {'72975'})
 ]
 
+class OrientDirection(Enum):
+    EAST_TO_WEST = 1
+    WEST_TO_EAST = 2
+    NORTH_TO_SOUTH = 3
+    SOUTH_TO_NORTH = 4
+
 GREEN_ROUTE = [
-    [
-        'way/1109090466',
-        'way/1109090468',
-        'way/10086405',
-        'way/1343222529',
-        'way/182952354',
-        'way/1311629921',
-        'way/1310476486',
-        'way/1311629920',
-        'way/1343862005',
-        'way/1204279029',
-        'way/1311629919',
-        'way/1310476484',
-    ],
-    [
-        'way/1204279011',
-    ],
-    [
-        'way/1343862115',
-        'way/258726226'
-    ],
-    [
-        'way/1204279011',
-    ],
-    [
-        'way/1305799465',
-        'way/1204279032',
-        'way/1310476481',
-        'way/105757140',
-        'way/1204279024',
-        'way/10083950',
-        'way/1204279014',
-        'way/105757117',
-        'way/1338131549',
-        'way/105757122'
-    ]
+    (
+        [
+            'way/1109090466',
+            'way/1109090468',
+            'way/10086405',
+            'way/1343222529',
+            'way/182952354',
+            'way/1311629921',
+            'way/1310476486',
+            'way/1311629920',
+            'way/1343862005',
+            'way/1204279029',
+            'way/1311629919',
+            'way/1310476484',
+        ],
+        OrientDirection.WEST_TO_EAST
+    ),
+    (
+        [
+            'way/1204279011',
+            'way/1343862115'
+        ],
+        OrientDirection.WEST_TO_EAST
+    ),
+    (
+        [
+            'way/258726226'
+        ],
+        OrientDirection.EAST_TO_WEST
+    ),
+    (
+        [
+            'way/1204279011',
+        ],
+        OrientDirection.EAST_TO_WEST
+    ),
+    (
+        [
+            'way/1305799465',
+            'way/1204279032',
+            'way/1310476481',
+            'way/105757140',
+            'way/1204279024',
+            'way/10083950',
+            'way/1204279014',
+            'way/105757117',
+            'way/1338131549',
+            'way/105757122'
+        ],
+        OrientDirection.EAST_TO_WEST
+    )
 ]
 
-def import_route(route_segment_ids: list[list[str]]):
+def orient(line, dir: OrientDirection):
+    start_x, start_y = line.coords[0][:2]
+    end_x, end_y = line.coords[-1][:2]
+
+    should_reverse = False
+
+    match dir:
+        case OrientDirection.EAST_TO_WEST:
+            # Desired: start_x >= end_x
+            should_reverse = start_x < end_x
+        case OrientDirection.WEST_TO_EAST:
+            # Desired: start_x <= end_x
+            should_reverse = start_x > end_x
+        case OrientDirection.NORTH_TO_SOUTH:
+            # Desired: start_y >= end_y
+            should_reverse = start_y < end_y
+        case OrientDirection.SOUTH_TO_NORTH:
+            # Desired: start_y <= end_y
+            should_reverse = start_y > end_y
+
+    return shapely.reverse(line) if should_reverse else line
+
+def import_route(route_segment_ids: list[tuple[list[str], OrientDirection]]):
     segments: list[LineString] = []
 
-    for route_segment in route_segment_ids:
+    for route_segment, dir in route_segment_ids:
         road_segments = map(
             lambda id: __df[__df['id'] == id]['geometry'].iloc[0],
             route_segment
         )
         segment: LineString = shapely.ops.linemerge(list(road_segments)) # type: ignore
+        segment = orient(segment, dir)
         segments.append(segment)
     
     return segments
